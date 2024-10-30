@@ -1,0 +1,124 @@
+body{
+    background-color:#f5f4f0 ;
+    background-color: #fae7e7;
+    
+
+}
+
+.welcome{
+    background-color: #f5c8c8;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: auto;
+}
+.styleh2{
+    font-size: 25px;
+    color: black;
+    font-family:'Vazir', sans-serif;
+    ;
+}
+.styleh1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ax{
+    border-radius: 20px;
+    margin: 10px 1600px 30px 2000px;
+    box-shadow: 10px 10px 20px #FF9F9F;
+    }
+
+/* new top menu*/
+.navbar {
+    padding: 20px;
+        text-align: center;
+    width: 100%;
+    background-color: #FFACAC;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    text-align: center;
+    padding: 12px;
+    color: rgb(73, 4, 4);
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #FF9F9F;
+    border-radius: 12;
+  }
+
+  
+  
+
+      
+      .table1 {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+        text-align: center;
+        display: table;
+        border: 1px solid black;
+        border-spacing: 2px;
+        border-color: gray;
+        padding: 15px;
+        
+      }
+.tr,td,th {
+    padding: 12px;
+    border: 3px solid black;
+    width: 20%;
+    height: 20%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: gray;
+    border-radius: 12px;
+    
+}
+    
+
+
+    
+    body, html {
+        height: 100%;
+        font-family: Tahoma, sans-serif;
+    }
+    
+    .imageb::before{
+        text-align: center;
+        background: linear-gradient(to bottom, #FF9F9F);
+
+    }
+
+    .gradient-overlay {
+        position: relative;
+        display: inline-block;
+        }
+        
+        .gradient-overlay img {
+        display: block;
+        }
+        
+        .about {
+            
+                width:1880px;
+                height:320px;
+                background-color:rgb(247, 217, 217);
+                border-radius: 12px;
+                text-align: center;
+                font-size: 30px;
+             }
+        
+        
+        
+
+
+
+
