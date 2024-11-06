@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "vazirmatn";
+    src: url("fonts/Vazirmatn-VariableFont_wght.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    }
+
 body{
     background-color:#f5f4f0 ;
     background-color: #fae7e7;
@@ -26,7 +33,7 @@ body{
 }
 .ax{
     border-radius: 20px;
-    margin: 10px 1600px 30px 2000px;
+    margin: auto;
     box-shadow: 10px 10px 20px #FF9F9F;
     }
 
@@ -48,10 +55,10 @@ body{
     font-size: 24px;
   }
   
-  /* Navbar links on mouse-over */
+  /* Navbar liner */
   .navbar a:hover {
     background-color: #FF9F9F;
-    border-radius: 12;
+    border-radius: 12;ks on mouse-ov
   }
 
   
@@ -60,7 +67,7 @@ body{
       
       .table1 {
         width: 100%;
-        margin: 20px 0;
+        margin: auto;
         border-collapse: collapse;
         text-align: center;
         display: table;
@@ -75,7 +82,7 @@ body{
     border: 3px solid black;
     width: 20%;
     height: 20%;
-    margin: 20px 0;
+    margin: auto;
     border-collapse: collapse;
     border-spacing: 2px;
     border-color: gray;
