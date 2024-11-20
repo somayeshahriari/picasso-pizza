@@ -3,9 +3,60 @@
     <html lang="fa">
 <html>
     <head>
+        <link rel="stylesheet" href="../style/style.css">
         <title> Contact Page  </title>
     </head>
     <body>
-        <h1>  ارتباط با ما </h1>
-    </body>
+        <div class="box1">
+        <fieldset>
+            <legend>  ارتباط با ما </legend>
+        <form action="./thank you Page.html" method="post">
+          
+        <label for="information"> اطلاعات عمومی </label>
+        <br>
+        <br>
+        <label for="Firstname">نام:</label>
+        <input type="text" id="=name" name="=Firstname" required maxlength="15" placeholder="نام ">
+        </br>
+        <br>
+        <label for="Lastname">نام خانوادگی :</label>
+        <input type="text" id="=name" name="=Lastname" required maxlength="15" placeholder=" نام خانوادگی ">
+        <br>
+        <br>
+        <label for="password">رمز عبور :</label>
+        <input type="password" id="=password" name="=password" required maxlength="6" placeholder=" رمز عبور">
+   
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label for="information"> اطلاعات شخصی </label>
+            <br>
+            <br>
+            <label for="birthday"> تاریخ تولد:</label>
+            <input type="date" id="=birthday">
+
+            <p> گیاه خوار هستید یا گوشت خوار 
+                <input type="radio" id="vegetrian" name="food" value="گیاه خوار">
+                <label for="vegetrian">گوشت خوار</label>
+                <input type="radio" id="meat" name="food" value="گوشت خوار">
+                <label for="meat">گوشت خوار</label>
+                </p>
+            <br>
+            <label for="address"> آدرس :</label>
+            <input type="text" id="=address">
+            <br>
+            <label for="messege"> پیام</label>
+            <br>
+            <textarea id="messege" name="messege" rows="5" placeholder="پیشنهادات و انتقادات"></textarea>
+            <br>
+            <button type="submit" > ارسال</button>
+            <button type="reset" > پاک کردن</button>
+        </div>
+        </fieldset>
+
+        </div>
+    </form>
+            </body>
 </html>
