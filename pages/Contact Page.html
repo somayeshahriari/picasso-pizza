@@ -3,9 +3,25 @@
     <html lang="fa">
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <div class="navbar">
+        <a class="active" href="../index.html"
+          ><i class="fa fa-fw fa-home"></i> صفحه اصلی
+        </a>
+        <a href="../pages/Menu page.html"><i class="fa fa-fw fa-search"></i> منو</a>
+        <a href="../pages/About Us Page.html"
+          ><i class="fa fa-fw fa-envelope"></i> درباره ما</a
+        >
+        <a href="../pages/Contact Page.html"
+          ><i class="fa fa-fw fa-user"></i> ارتباط با ما
+        </a>
+      </div>
         <link rel="stylesheet" href="../style/style.css">
         <title> Contact Page  </title>
     </head>
+    <br>
+    <br>
     <body>
         <div class="box1">
         <fieldset>
@@ -23,11 +39,41 @@
         <input type="text" id="=name" name="=Lastname" required maxlength="15" placeholder=" نام خانوادگی ">
         <br>
         <br>
+        <label for="food">کدام غذای ما را امتحان کرده اید؟</label>
+        <select id="food" name="food">
+            <option value="peper">پیتزاپپرونی</option>
+            <option value="baken">پیتزابیکن	</option>
+            <option value="rost">پیتزارست بیف	</option>
+            <option value="spesial">پیتزااسپشیال	</option>
+            <option value="shikago">پیتزاشیکاگو</option>
+            <option value="vegan">وگان	</option>
+            <option value="chiken">پیتزا سیر و استیک</option>
+            <option value="chiken">میکس ویژه</option>
+            <option value="chiken">پیتزاسوپریم</option>
+            <option value="chiken">پیتزا مخلوط</option>
+            <option value="chiken">پیتزا مکزیکی	</option>
+            <option value="chiken">پیکاسو	</option>
+        </select>
+        <br>
+        <br>
+        <label for="city-choice">شهر:</label>
+        <input list="city-option"  id="city-choice" name="city-choice">
+        <datalist id="city-option">
+            <option value="تهران"></option>
+            <option value="اصفهان"></option>
+            <option value="شیراز"></option>
+            <option value="کرمان"></option>
+        </datalist>
+
+        <br>
+        <br>
+
         <label for="password">رمز عبور :</label>
         <input type="password" id="=password" name="=password" required maxlength="6" placeholder=" رمز عبور">
    
         <br>
         <br>
+       
         <br>
         <br>
         <div>
@@ -36,12 +82,16 @@
             <br>
             <label for="birthday"> تاریخ تولد:</label>
             <input type="date" id="=birthday">
-
-            <p> گیاه خوار هستید یا گوشت خوار 
+            <br>
+        <br>
+<label for="weight">وزن:</label>
+<input type="range" id="weight" min="30" max="150" value="50" oninput="num.value=this.value">
+<output id="num">50</output>
+<p> گیاه خوار هستید یا گوشت خوار 
                 <input type="radio" id="vegetrian" name="food" value="گیاه خوار">
                 <label for="vegetrian">گوشت خوار</label>
                 <input type="radio" id="meat" name="food" value="گوشت خوار">
-                <label for="meat">گوشت خوار</label>
+                <label for="meat">گیاه خوار</label>
                 </p>
             <br>
             <label for="address"> آدرس :</label>
@@ -53,10 +103,11 @@
             <br>
             <button type="submit" > ارسال</button>
             <button type="reset" > پاک کردن</button>
-        </div>
+    
         </fieldset>
 
-        </div>
     </form>
+</div>
+
             </body>
 </html>

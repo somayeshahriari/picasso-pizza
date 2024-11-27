@@ -1,9 +1,7 @@
-@font-face {
-    font-family: vazirmatn;
-    src: url("fonts/Vazirmatn-VariableFont_wght.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal;
-    }
+@import url('https://fonts.googleapis.com/css?family=Vazirmatn');
+body {
+font-family: 'Vazirmatn', Arial, sans-serif;
+}
 
 body{
     background-color: #fae7e7;
@@ -17,12 +15,12 @@ body{
 
 }
 .styleh2{
-    font-size: 25px;
+    font-size: 35px;
     color: black;
 }
 .styleh1{
     text-align: center;
-    font-size: 60px;}
+    font-size: 90px;}
 .ax{
     border-radius: 20px;
     margin: auto;
@@ -40,6 +38,7 @@ body{
   
   /* Navbar links */
   .navbar a {
+    margin: auto;
     text-align: center;
     padding: 12px;
     color: rgb(73, 4, 4);
@@ -53,30 +52,22 @@ body{
     border-radius: 12;
   }
       
-    table{
-        width: 100%;
-        margin: auto;
-        border-collapse: collapse;
-        text-align: center;
-        display: table;
-        border: 1px solid black;
-        border-spacing: 2px;
-        border-color: gray;
-        padding: 15px;
+    .table1 {
         
-      }
-tr,td,th {
-    padding: 12px;
-    border: 3px solid black;
-    width: 20%;
-    height: 20%;
-    margin: auto;
-    border-collapse: collapse;
-    border-spacing: 2px;
-    border-color: gray;
-    border-radius: 12px;
-    
-}
+        border-spacing: 5px;
+    }
+    .table1 th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+            
 
     
     .imageb::before{
@@ -95,7 +86,7 @@ tr,td,th {
         }
         
         .about {
-            
+            margin: auto;
                 width:1880px;
                 height:320px;
                 background-color:rgb(247, 217, 217);
@@ -123,22 +114,69 @@ tr,td,th {
                  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
                 }
 
-                input[type=text] ,input[type=number] ,input[type=date]
+                input[type=text] ,input[type=number] ,input[type=date], input[type=password], datalist,
+                select, input[list]
+                
                 {
                     width: 30%;
                     padding: 10px;
                     margin: 5px 0 20px 0;
                     border: #241b1b;
                     border-radius: 4px;
+                    text-align: right;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: #3f0606;
                 }
-        
-
+    
                 textarea{
                     width:95%;
                     padding: 10px;
                     margin: 1px ;
                     border: #241b1b;
                     border-radius: 4px;
+                    column-count: 3;
                 }
 
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dfb0b0;
+}
 
+
+.farsi-numbers { 
+    direction: rtl; 
+    unicode-bidi: bidi-override;
+    }
+
+   
+   .about {
+       width:auto;
+       height: auto;
+       border: 2px #b93434;
+       background-color:rgb(247, 217, 217);
+       border-radius: 12px;
+       text-align: center;
+       font-size: 30px;
+       margin: auto;
+       padding: 20px;
+    }
+
+    .table2 {
+        border-spacing: 5px;
+        }
+        .table2 th, td {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: large;
+        justify-content: flex-start;
+        }
+
+
+
+
+        ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰
